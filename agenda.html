@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/assets/favicon/favicon.jpg" type="image/x-icon" />
+  <title>Agende sua Visita - AV1 Automóveis</title> 
+  <link rel="stylesheet" href="">
+</head>
+<body>
+
+  <!-- Cabeçalho do site -->
+  <header>
+    <div class="logo">
+      <strong>AV1</strong><br>automoveis <!-- Logotipo da empresa -->
+    </div>
+    <nav>
+      <!-- Menu de navegação com destaque na página atual -->
+      <a href="index.html">Home</a>
+      <a href="veiculos.html">veiculos</a>
+      <a href="sobre.html">sobre nós</a>
+      <a href="agenda.html" class="active">agende sua visita</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+    <div class="Forms-Container">
+      <h2>Agende sua visita</h2> <!-- Título da seção do formulário -->
+      
+      <!-- Formulário de agendamento -->
+      <form>
+        <label for="nome">nome completo</label> 
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="telefone">telefone</label>
+        <input type="tel" id="telefone" name="telefone" required> <!-- Campo para telefone -->
+
+        <label for="data">data da visita</label>
+        <input type="date" id="data" name="data" required> <!-- Campo para selecionar a data -->
+
+        <label for="mensagem">mensagem</label>
+        <textarea id="mensagem" name="mensagem"></textarea> <!-- Campo de texto livre (opcional) -->
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <!-- Imagem ilustrativa ao lado do formulário -->
+    <div class="image-container">
+        <img src="/assets/img/Agenda.PNG" alt=""> <!-- Imagem  -->
+    </div>
+  </main>
+
+</body>
+</html>
